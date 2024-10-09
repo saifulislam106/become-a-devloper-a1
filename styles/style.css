@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-layout {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* bennar section style */
+.bennar {
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 48px;
+    height: 652px;
+}
+
+.bennar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 652px;
+}
+
+/* devloper section styles */
+.devloper{
+    max-width: 920px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+.devloper>h2 {
+    text-align: center;
+}
+.devloper>p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.devloper-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
+.devloper-container-exception{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 24px;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
+.devloper-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
