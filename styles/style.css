@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Azeret Mono", monospace;
 }
 
 .main-layout {
@@ -8,11 +11,52 @@
     margin: 0 auto;
 }
 
+/* share styles */
+.btn-primary {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    background-color: rgb(251, 252, 253);
+    opacity: 0.8;
+}
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+
+}
+
+.section-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.dev-section-subtitle {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
 /* navbar styles */
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 48px 0;
 }
 
 /* bennar section style */
@@ -24,6 +68,27 @@
     margin: 0 auto;
 }
 
+.bennar h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bennar button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 12px;
+}
+
 .bennar-container {
     display: flex;
     flex-direction: column;
@@ -32,6 +97,7 @@
     gap: 15px;
     height: 652px;
 }
+
 
 /* devloper section styles */
 .devloper {
@@ -171,6 +237,7 @@ footer {
     align-items: center;
     padding: 32px 176px;
 }
+
 .sosial-icon {
     display: flex;
     gap: 24px;
