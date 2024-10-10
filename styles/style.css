@@ -59,6 +59,14 @@
     margin: 48px 0;
 }
 
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+}
+
 /* bennar section style */
 .bennar {
     background-image: url(../assets/Hero-bg.png);
@@ -87,6 +95,7 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 12px;
+    margin-top: 10px;
 }
 
 .bennar-container {
@@ -209,33 +218,99 @@
 
 /* support section styles */
 .support-section {
-    background-image: url(../assets/handshake.jpg);
+    background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
     height: 312px;
     background-position: center;
     margin: 84px auto;
+    border-radius: 16px;
 
 }
 
 .support-section-contant {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     height: 312px;
-    justify-content: center;
+
     gap: 20px;
 
 }
 
+.support-section-contant h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.support-section-contant p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-section-contant .text-field {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 184px;
+    width: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.support-section-contant .submit {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+
 /* footer styles */
 footer {
-    border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    max-width: 1440px;
+
+    padding: 32px 176px;
+}
+
+.footer-content {
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 176px;
+}
+
+.footer-content h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .sosial-icon {
