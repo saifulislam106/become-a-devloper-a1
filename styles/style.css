@@ -84,7 +84,10 @@
     letter-spacing: 0%;
     text-align: center;
 }
-
+.center-aling{
+    text-align: center;
+    width: 80%;
+}
 .bennar button {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -169,7 +172,7 @@
 /* target section styles */
 .target-section h2 {
     text-align: center;
-    margin-top: 48px;
+    margin-top: 140px;
 }
 
 .target-section>p {
