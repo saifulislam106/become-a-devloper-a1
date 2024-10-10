@@ -4,7 +4,7 @@
 }
 
 .main-layout {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -20,6 +20,8 @@
     background-image: url(../assets/Hero-bg.png);
     margin-top: 48px;
     height: 652px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .bennar-container {
@@ -32,27 +34,30 @@
 }
 
 /* devloper section styles */
-.devloper{
+.devloper {
     max-width: 920px;
     margin: 0 auto;
     margin-top: 72px;
 }
+
 .devloper>h2 {
     text-align: center;
 }
+
 .devloper>p {
     text-align: center;
     margin-top: 15px;
 }
 
-.devloper-container{
+.devloper-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 56px;
     margin-bottom: 48px;
 }
-.devloper-container-exception{
+
+.devloper-container-exception {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -61,8 +66,112 @@
     margin-top: 56px;
     margin-bottom: 48px;
 }
-.devloper-content{
+
+.devloper-content {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+/* Inspiration section styles */
+.Inspiration h2 {
+    text-align: center;
+}
+
+.Inspiration p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.iframe {
+    box-sizing: border-box;
+    margin-top: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+/* target section styles */
+.target-section h2 {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.target-section>p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.target-contant-1 {
+    margin-top: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 320px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.target-contant-2 {
+    margin-top: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 320px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.target-contant-3 {
+    margin-top: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 320px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* support section styles */
+.support-section {
+    background-image: url(../assets/handshake.jpg);
+    height: 312px;
+    background-position: center;
+    margin: 84px auto;
+
+}
+
+.support-section-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 312px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+/* footer styles */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 176px;
+}
+.sosial-icon {
+    display: flex;
+    gap: 24px;
 }
